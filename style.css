@@ -1,1 +1,61 @@
+-/* Styling for the chessboard title with Google Font */
+#title {
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
+/* Centering the board */
+#container {
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for rows to create a chessboard */
+.row {
+    display: flex;
+}
+
+/* Black and white squares */
+.white, .black {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* White square color */
+.white {
+    background-color: white;
+}
+
+/* Black square color */
+.black {
+    background-color: #787878;
+}
+
+/* Styling images inside chessboard cells */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Footer styling */
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    clear: both;
+  background-color: lightyellow;
+}
