@@ -1,10 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f0e68c; /* Light yellow background for the whole page */
+    background-color: #f9f9f9;
 }
 
 #title {
@@ -12,24 +8,21 @@ body {
     font-size: 36px;
     font-weight: normal;
     text-align: center;
-    background-color: lightyellow;
-    width: 10000px; /* Ensure the title spans full width of the container */
-    padding: 0px;
+    background-color: #d3d3d3; 
+    padding: 20px 20px; 
+    margin: 0 auto;
+    width: calc(100% - 40px);
 }
 
 #container {
-    width: px;
+    width: 480px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     background-image: url('https://raw.githubusercontent.com/luckyykat/a2/main/Poliigon_StoneQuartzite_BaseColor.jpg');
     background-size: cover;
     background-position: center;
-    padding: 450px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  
-      
-  
+    padding: 80px;
 }
 
 .row {
@@ -39,13 +32,14 @@ body {
 .white, .black {
     width: 60px;
     height: 60px;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .white {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .black {
@@ -58,8 +52,11 @@ img {
 }
 
 #footer {
-    width: 10000px; /* Match the width of the title and container */
-    background-color: lightyellow;
+    width: 100%;
+    height: 50px;
+    background-color: #d3d3d3;
     text-align: center;
-    padding: 10px 0; /* Reduced padding to make footer less stretched */
-    margin-top: 5px;
+    padding: 15px 0;
+    position: relative;
+    clear: both;
+}
